@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mmstest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\FLYTRE~1\LOCALS~1\Temp\RSP220.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/mmstest.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\网络收音机\mmstest\mms.c"
+"F:\网络收音机\mmstest\mmstest.c"
+"F:\网络收音机\mmstest\mmsx.c"
+]
+Creating command line "cl.exe @D:\DOCUME~1\FLYTRE~1\LOCALS~1\Temp\RSP220.tmp" 
+Creating temporary file "D:\DOCUME~1\FLYTRE~1\LOCALS~1\Temp\RSP221.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/mmstest.pdb" /debug /machine:I386 /out:"Debug/mmstest.exe" /pdbtype:sept 
+".\Debug\mms.obj"
+".\Debug\mmstest.obj"
+".\Debug\mmsx.obj"
+".\Debug\uri.obj"
+]
+Creating command line "link.exe @D:\DOCUME~1\FLYTRE~1\LOCALS~1\Temp\RSP221.tmp"
+<h3>Output Window</h3>
+Compiling...
+mms.c
+f:\网络收音机\mmstest\mms.c(308) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'unsigned __int8 ', possible loss of data
+f:\网络收音机\mmstest\mms.c(309) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'unsigned __int8 ', possible loss of data
+f:\网络收音机\mmstest\mms.c(310) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'unsigned __int8 ', possible loss of data
+f:\网络收音机\mmstest\mms.c(311) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'unsigned __int8 ', possible loss of data
+f:\网络收音机\mmstest\mms.c(651) : warning C4018: '!=' : signed/unsigned mismatch
+f:\网络收音机\mmstest\mms.c(680) : warning C4018: '<' : signed/unsigned mismatch
+f:\网络收音机\mmstest\mms.c(703) : warning C4244: '=' : conversion from '__int64 ' to 'double ', possible loss of data
+f:\网络收音机\mmstest\mms.c(796) : warning C4244: '+=' : conversion from 'unsigned __int64 ' to 'int ', possible loss of data
+f:\网络收音机\mmstest\mms.c(812) : warning C4047: 'function' : 'int ' differs in levels of indirection from 'char *'
+f:\网络收音机\mmstest\mms.c(812) : warning C4024: 'tolower' : different types for formal and actual parameter 1
+f:\网络收音机\mmstest\mms.c(812) : warning C4047: 'function' : 'const char *' differs in levels of indirection from 'int '
+f:\网络收音机\mmstest\mms.c(812) : warning C4024: 'strcmp' : different types for formal and actual parameter 1
+f:\网络收音机\mmstest\mms.c(824) : warning C4101: 'res' : unreferenced local variable
+f:\网络收音机\mmstest\mms.c(882) : warning C4018: '>' : signed/unsigned mismatch
+f:\网络收音机\mmstest\mms.c(903) : warning C4018: '<' : signed/unsigned mismatch
+f:\网络收音机\mmstest\mms.c(904) : warning C4018: '>=' : signed/unsigned mismatch
+f:\网络收音机\mmstest\mms.c(919) : warning C4018: '<' : signed/unsigned mismatch
+f:\网络收音机\mmstest\mms.c(935) : warning C4305: '=' : truncation from 'const int ' to 'char '
+f:\网络收音机\mmstest\mms.c(936) : warning C4305: '=' : truncation from 'const int ' to 'char '
+f:\网络收音机\mmstest\mms.c(1418) : warning C4018: '!=' : signed/unsigned mismatch
+mmstest.c
+f:\网络收音机\mmstest\mms.c(253) : warning C4761: integral size mismatch in argument; conversion supplied
+mmsx.c
+f:\网络收音机\mmstest\mmsx.c(91) : warning C4700: local variable 'io' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+mmstest.exe - 0 error(s), 22 warning(s)
+</pre>
+</body>
+</html>
